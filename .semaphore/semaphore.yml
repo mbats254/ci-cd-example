@@ -16,6 +16,7 @@ blocks:
             - composer install
             - npm install
             - cache store
+            - test-results publish results.xml
       env_vars:
         - name: APP_ENV
           value: local
